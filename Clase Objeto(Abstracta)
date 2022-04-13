@@ -1,0 +1,13 @@
+#include "iostream"
+#include "sstream"
+#include "string"
+#include "assert.h"
+#include "fstream"
+
+using namespace std;
+
+class Objeto {
+
+public:
+    virtual string toString() =0;
+};
